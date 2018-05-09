@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Amita" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+ </script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+    logo{
+  font-family:pacifico;
+  font-size:200%;
+  }
+.about{
+  position:relative;
+  margin-top:-20px;
+  margin-left:.5px;
+  margin-right:.5px;
+  background-image:url("https://wallpaperscraft.com/image/computer_keyboard_mouse_laptop_mac_apple_66734_1920x1080.jpg");  
+}
+.about-detail{
+  margin-top:124px;
+  
+  font-family:amita;
+  color:white;
+  font-size:200%;
+  
+}
+.about-image{
+  
+  margin: 130px auto;
+  width:260px;
+
+}
+.border{
+  border:2px dashed grey;
+  
+}
+.portfolio{
+  margin-top:-20px;
+  background-image:url("https://www.mora-tec.com/services/wp-content/uploads/2014/08/high-tech-wallpapers-30881-31611-hd-wallpapers.jpg");
+}
+.text-portfolio{
+  
+  font-family:pacifico;
+  color:white;
+  margin-bottom:30px;
+
+}
+
+  
+
+.text-contact{
+  font-family:pacifico;
+  
+}
+
+.contact-details{
+  font-family:amita;
+  font-size:20px;
+}
+.footer{
+  font-family:Amita;
+  background-color:silver;
+  
+}
+.india{
+  font-family:"Mina";
+}
+.img-pro
+{
+ opacity:.4; 
+  -webkit-transition: width .5s; /* Safari */
+    transition: .5s;
+  width:80%;
+  height:60%;
+}
+.img-pro:hover
+{
+  opacity:.9;
+  width:90%;
+  height:70%;
+}
+
+
+</style>
+
+</head>
+<body>
+  
+<div class="container-fluid">
+  <!--navigation bar started-->
+   <!--<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header ">
+      <a class="navbar-brand logo" href="#">Dipit Maurya</a>
+    </div>
+    <ul class="nav navbar-nav ">
+      <li class="active"><a href="#top" class="scrollable">About</a></li>
+      <li><a href="#portfolio" class="scrollable">Portfolio</a></li>
+      <li><a href="#contact" class="scrollable">Contact</a></li>
+    </ul>
+  </div>
+</nav>--> 
+   <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand logo" href="#">Dipit Maurya</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#top">About</a></li>
+        <li ><a href="#portfolio">Portfolio</a></li>
+        <li ><a href="#contact">Contact</a></li>
+        
+      </ul>
+      
+     
+    </div>
+  </div>
+</nav> 
+  <!--navigation bar Ended-->
+  <!--About page div started-->
+  <div class=" container-fluid thumbnail  about row"><a  href="#top"></a>
+    <div class="col-sm-7">
+   <p class="about-detail text-center ">Hello ! <br>I am <b class="india">Web Developer</b>.<br>
+     I work in Frontend and Backend Both.<br>
+     Lives in In <b class="text-primary india">INDIA</b> .<br>
+     I enjoy each aspect, and love building sites from start to finish.
+      </p>
+      </div>
+      <div class="col-sm-5">
+        <img src="data:image/jpeg;base64,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" alt="img" class="about-image img-responsive text-center img-circle border">
+        </div>
+    <!--div of line started-->
+    
+       
+      
+
+    </div>
+  <!--About page div Ended-->
+  
+  <!--Portfolio Div Started-->
+  <div class=" portfolio thumbnail"><a  id="portfolio"></a>
+    <h1 class="text-center text-portfolio">Portfolio</h1>
+  <div  class=" row text-center">
+    
+    
+    <div class="col-sm-4">
+            <img src="https://openclipart.org/image/2400px/svg_to_png/293844/under-construction_geek_man_01.png" alt="img1" class="img-responsive thumbnail img-pro">
+           </div>
+    
+    <div class="col-sm-4">
+      <img src="https://openclipart.org/image/2400px/svg_to_png/293844/under-construction_geek_man_01.png" alt="img2" class="img-responsive thumbnail img-pro">
+            </div>
+    
+    <div class="col-sm-4">
+      <img src="https://openclipart.org/image/2400px/svg_to_png/293844/under-construction_geek_man_01.png" alt="img3" class="img-responsive thumbnail img-pro">
+            </div>
+    
+    </div>
+    
+    </div>
+  
+  <!--Portfolio Div Ended-->
+  
+  <!--contact div started-->
+  <div class="thumbnail"><a  id="contact"></a>
+    <h1 class="text-center text-contact">Contact</h1>
+    <div class="row">
+      <div class="col-sm-3">
+        <p class="contact-details text-center">Want to know more About me ? <br>
+          Feel free to write me.  <i class="fa fa-smile-o"></i>
+          <i class="fa fa-smile-o"></i>
+          <i class="fa fa-smile-o"></i>
+        </p>
+        </div>
+      <div class="col-sm-9">
+         <form class="form-horizontal" action="/action_page.php">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email">Email:</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+  </div>
+           
+           
+           <div class="form-group">
+    <label class="control-label col-sm-2" for="name">Name:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="name" placeholder="Enter Name">
+    </div>
+  </div>   
+           
+            <div class="form-group">
+    <label class="control-label col-sm-2" for="textarea">Your Query:</label>
+    <div class="col-sm-10">
+      <textarea type="textarea" class="form-control" id="comment" placeholder="Enter your Queries"></textarea>
+    </div>
+  </div>
+           
+           
+ <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="button" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+</form> 
+        </div>
+      
+      </div>
+    </div>
+  <!--contact div ended-->
+  
+  <!--social media div started-->
+  <div class="thumbnail">
+    
+    <div class="row">
+      <div class="col-sm-3 text-center">
+        <p class="logo">Find Me on: <i class="fa fa-hand-o-right"></i></p>
+        </div>
+      <div class="col-sm-3 text-center">
+        <a href="https://www.facebook.com/dipitmaurya" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a> 
+        </div>
+      <div class="col-sm-3 text-center">
+        <a href="https://www.instagram.com/dipitmaurya" target="_blank"><i class="fa fa-instagram fa-3x" ></i> </a> 
+                  
+        </div>
+      <div class="col-sm-3 text-center">
+        <a href="https://www.twitter.com/dipitmaurya" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a> 
+        </div> 
+      </div>
+    
+    </div>
+  <!--social media div Ended-->
+  <!--Footer started-->
+  <footer class="footer">
+    <p class="text-center text-responsive">&copy; All Rights reserved. Developed by <b><a href="https://www.trickyforyou.blogspot.in" target="_blank">Dipit Maurya</a></b></p>
+    </footer>
+  <!--footer Ended-->
+  
+  </div>
+  
+</body>
+</html>
